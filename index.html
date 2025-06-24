@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriela Polentino | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated Background Elements -->
+  <div class="bg-elements">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+  </div>
+
+  <header id="navbar">
+    <div class="logo">
+      <span class="logo-text">Gabriela Polentino</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="nav-link"><span>About</span></a></li>
+        <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+        <li><a href="#experience" class="nav-link"><span>Experience</span></a></li>
+        <li><a href="#skills" class="nav-link"><span>Skills</span></a></li>
+        <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+<section id="about" class="profile-section">
+  <!-- Elementos decorativos -->
+
+  <div class="section-decoration left"></div>
+  <div class="profile-container">
+    <div class="profile-image-and-social">
+      <div class="profile-frame">
+        <img src="mifotomariposa.jpeg" alt="Foto " class="profile-pic">
+        <div class="frame-decoration"></div>
+      </div>
+      <div class="social-box">
+        <a href="mailto:gpolenzamora@hotmail.com" target="_blank" title="Email" class="social-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="www.linkedin.com/in/gabriela-zamora-75b1872b1" target="_blank" title="LinkedIn" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Gabyzaboo" target="_blank" title="GitHub" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="profile-info">
+      <h2 class="glitch-text">Gabriela Polentino</h2>
+      <div class="animated-bar"></div>
+      <h4>Data Analyst | Web Designer | Graphic Designer</h4>
+      <p>
+       Hi There! 👋 I'm a naturally curious person who loves to learn — whether that's through code, design, or picking up new skills!
+I come from a graphic design background, but over time I found myself getting more and more interested in data and how we can use it to understand things better and solve real problems.
+
+I use Python,SQL, HTML, CSS, and JavaScript, and I really enjoy mixing creativity with tech — whether it's making information easier to understand or building something useful from scratch.
+
+Outside of work, I love learning new languages, exploring new places, and finding inspiration in the little things. I'm always open to new ideas and excited about where this journey takes me next!
+      </p>
+      <div class="skills-container">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Excel</span>
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">Data Analysis</span>
+        <span class="skill-tag">Customer Service</span>
+      </div>
+    </div>
+  </div>
+  <div class="section-decoration right"></div>
+</section>
+
+ <!-- PROJECTS SECTION -->
+<section id="projects" class="abstract-section">
+  <h2 class="section-title">My Projects<span class="title-decoration"></span></h2>
+  <div class="projects-grid">
+    
+    <!-- PRIMER PROYECTO - Medical System -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-robot"></i>
+      </div>
+      <h3>Medical Management System</h3>
+      <p>Developed a comprehensive desktop application for healthcare management featuring patient registration, doctor administration, appointment scheduling, and reporting. Built with Java, SQL, IntelliJ IDEA.</p>
+      <div class="project-actions">
+        <button class="project-link modal-trigger" data-modal="medical-modal">
+          View Screenshots <i class="fas fa-images"></i>
+        </button>
+      </div>
+    </div> 
+    
+    <!-- SEGUNDO PROYECTO -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-chart-pie"></i>
+      </div>
+      <h3>Corporate Reputation Dashboard</h3>
+      <p>Designed an interactive business intelligence dashboard for corporate reputation monitoring with real-time data visualization. Built with HTML, CSS, JavaScript, Chart.js</p>
+      <div class="project-tags">
+      </div>
+      <a href="http://127.0.0.1:5501/index.html" class="project-link">See Project <i class="fas fa-arrow-right"></i></a>
+    </div>
+    
+    <!-- TERCER PROYECTO -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <h3>Non-Profit Animal Shelter Website</h3>
+      <p>Created a full-stack responsive website for a local dog rescue foundation to increase adoption rates and donations. Built with PHP, Java, HTML, CSS, JavaScript.</p>
+      <div class="project-tags">
+      </div>
+      <a href="https://kenovycol.com/index.html" class="project-link">See Project<i class="fas fa-arrow-right"></i></a>
+    </div>
+    
+  </div>
+</section> 
+  <!-- EXPERIENCE SECTION -->
+<section id="experience" class="experience-section">
+  <h2 class="section-title">Professional Experience<span class="title-decoration"></span></h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>Data Support Specialist & Analytics Mentor</h3>
+          <span class="timeline-date">Jul 2024 – Mar 2025</span>
+        </div>
+        <p>Analyzed behavioral patterns of 100+ weekly users using SQL and internal dashboards to identify fraud trends and optimize security protocols</p>
+        <p>Managed user databases in Salesforce and Zendesk, maintaining detailed records for auditing and predictive analysis</p>
+        <p>Mentored 10+ new analysts, developing onboarding programs focused on data analytics and customer intelligence.</p>
+         <p>Designed custom performance metrics that increased customer satisfaction scores by 15%</p>
+        <div class="timeline-achievements">
+          <span>98% user satisfaction</span>
+          <span>Team mentor & escalation lead</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>Multilingual – Medical Interpreter</h3>
+          <span class="timeline-date">Mar 2020 – Jun 2020</span>
+        </div>
+        <p>Provided real-time English–Spanish interpretation in clinical settings. Ensured accurate communication between medical professionals and patients regarding diagnoses, treatments, and procedures.</p>
+        <p>Coordinated digital documentation workflows for 50+ daily medical consultations</p>
+        <p>Supported telemedicine initiatives during COVID-19 transition, ensuring data integrity across platforms</p>
+        <div class="timeline-achievements">
+          <span>Real-time interpretation</span>
+          <span>Confidential, accurate service</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>Banco Santander – Insurance Sales Representative</h3>
+          <span class="timeline-date">2019</span>
+        </div>
+        <p>Promoted and sold insurance products, educating clients on coverage options, benefits, and terms. Ensured clients made informed decisions based on their needs.</p>
+         <p>Built comprehensive Excel dashboards to monitor sales performance, market opportunities, and regional KPIs.</p>
+        <div class="timeline-achievements">
+    
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="resume-download">
+    <a href="file:///C:/Users/mfz78/Downloads/CV%20Gabriela.pdf" class="btn-download">
+      <i class="fas fa-file-download"></i>
+      <span>Download Full Resume</span>
+    </a>
+  </div>
+</section>
+
+  <!-- SKILLS SECTION -->
+<section id="skills" class="skills-section">
+   <h2 class="section-title">Skills & Technologies<span class="title-decoration"></span></h2>
+
+<div class="skills-grid">
+
+  <div class="skill-category">
+    <h3>Programming</h3>
+    <div class="skill-bars">
+      <div class="skill-bar">
+        <span class="skill-name">Python</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="85"></div>
+          <div class="skill-percentage">85%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">HTML/CSS</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="90"></div>
+          <div class="skill-percentage">90%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="70"></div>
+          <div class="skill-percentage">70%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Data Analysis</h3>
+    <div class="skill-bars">
+      <div class="skill-bar">
+        <span class="skill-name">Excel</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="95"></div>
+          <div class="skill-percentage">95%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">SQL</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="75"></div>
+          <div class="skill-percentage">75%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Pandas</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="80"></div>
+          <div class="skill-percentage">80%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Soft Skills</h3>
+    <div class="skill-bars">
+      <div class="skill-bar">
+        <span class="skill-name">Communication</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="98"></div>
+          <div class="skill-percentage">98%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Teamwork</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="92"></div>
+          <div class="skill-percentage">92%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Problem Solving</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="95"></div>
+          <div class="skill-percentage">95%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Adaptability</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="88"></div>
+          <div class="skill-percentage">88%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Attention to Detail</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="90"></div>
+          <div class="skill-percentage">90%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Languages</h3>
+    <div class="skill-bars">
+      <div class="skill-bar">
+        <span class="skill-name">Spanish (Native)</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="100"></div>
+          <div class="skill-percentage">100%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">English</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="95"></div>
+          <div class="skill-percentage">95%</div>
+        </div>
+      </div>
+       <div class="skill-bar">
+        <span class="skill-name">Portuguese</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="35"></div>
+          <div class="skill-percentage">35%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Russian</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="25"></div>
+          <div class="skill-percentage">25%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Chinese</span>
+        <div class="skill-progress-bg">
+          <div class="skill-progress" data-width="45"></div>
+          <div class="skill-percentage">45%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="contact-decoration"></div>
+    <h2 class="section-title">Let's Connect<span class="title-decoration"></span></h2>
+    <p class="contact-intro">Want to work with me or have any questions? Write to me and I'll respond as soon as possible!</p>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <i class="fas fa-envelope"></i>
+          <span>gpolenzamora@hotmail.com</span>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Bogota, Cundinamarca Colombia</span>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-phone"></i>
+          <span>+57 3058848360</span>
+        </div>
+
+      </div>
+      
+        <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <div class="input-container">
+          <i class="fas fa-user"></i>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <label for="email">Email</label>
+        <div class="input-container">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <label for="message">Message</label>
+        <div class="input-container textarea-container">
+          <i class="fas fa-comment-alt"></i>
+          <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+        </div>
+      </div>
+     
+      <button type="submit" class="submit-btn">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+      </div>
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+<!-- Modal para Medical System Screenshots -->
+<div id="medical-modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>Medical Management System - Screenshots</h3>
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+      <div class="screenshot-gallery">
+        <div class="screenshot-item">
+          <img src="medical-screenshot-1.png" alt="Main Dashboard" class="screenshot-img">
+          <p class="screenshot-caption">Main Dashboard - Sistema de Reporte Médico</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-2.png" alt="Patient Registration" class="screenshot-img">
+          <p class="screenshot-caption">Patient Registration Form - Adding New Patient</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-3.png" alt="Form Interface" class="screenshot-img">
+          <p class="screenshot-caption">Patient Registration Interface - Form Fields</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-4.png" alt="Form Validation" class="screenshot-img">
+          <p class="screenshot-caption">Patient Registration - Validation Example</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-5.png" alt="Doctor Management" class="screenshot-img">
+          <p class="screenshot-caption">Doctor Management System - Complete List View</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-6.png" alt="Search Feature" class="screenshot-img">
+          <p class="screenshot-caption">Search by Specialty - Advanced Filter Feature</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-7.png" alt="Appointment Management" class="screenshot-img">
+          <p class="screenshot-caption">Appointment Management - Consultation History</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="medical-screenshot-8.png" alt="Reports Generator" class="screenshot-img">
+          <p class="screenshot-caption">Advanced Reports - Detailed Medical Reports Generator</p>
+        </div>
+      </div>
+      <div class="project-details">
+        <h4>Technical Details:</h4>
+        <ul>
+          <li><strong>Frontend:</strong> Java Swing with custom UI components</li>
+          <li><strong>Backend:</strong> Java with MVC architecture</li>
+          <li><strong>Database:</strong> MySQL with JDBC connectivity</li>
+          <li><strong>IDE:</strong> IntelliJ IDEA</li>
+          <li><strong>Features:</strong> Real-time conflict detection, data validation, automated backups</li>
+          <li><strong>Key Modules:</strong> Patient management, Doctor administration, Appointment scheduling, Advanced reporting</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
