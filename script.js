@@ -88,31 +88,6 @@ document.addEventListener('DOMContentLoaded', function() {
       glitchText.setAttribute('data-text', glitchText.textContent);
     }
     
-    // Formulario de contacto
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-      contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Aquí iría la lógica para enviar el formulario
-        const formData = new FormData(this);
-        const formValues = Object.fromEntries(formData.entries());
-        
-        // Efecto de enviado
-        const submitBtn = this.querySelector('button[type="submit"]');
-        const originalText = submitBtn.innerHTML;
-        
-        submitBtn.innerHTML = '<i class="fas fa-check"></i> Mensaje enviado';
-        submitBtn.disabled = true;
-        
-        // Simulación de envío (en producción, esto se reemplazaría por una llamada real)
-        setTimeout(() => {
-          submitBtn.innerHTML = originalText;
-          submitBtn.disabled = false;
-          contactForm.reset();
-        }, 3000);
-      });
-    }
     
     // Efecto de escritura para el subtítulo
     const typeWriter = function(textElement, text, i, fnCallback) {
